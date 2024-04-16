@@ -33,9 +33,9 @@
 
 const myObject = {
     JS: 'javascript',
-    cpp:'C++',
-    rb:"ruby",
-    swift:"swift by apple"
+    Cpp:'C++',
+    Rb:"ruby",
+    Swift:"swift by apple"
 }
 for (const key in myObject) {
     console.log(`${key} shortcut is for ${myObject[key]}`);
